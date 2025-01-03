@@ -8,4 +8,5 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     event.preventDefault();
     alert('Message sent!');
     // Form reset can go here if needed
+    this.reset();
 });
